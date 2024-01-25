@@ -42,7 +42,7 @@
                     "<br>Phone Number : " +  document.getElementById("phone").value +
                     "<br>Message : " +  document.getElementById("message").value 
         }).then(
-          message => alert(message)
+          message => alert("Thank you for your response")
         );
     }
 
